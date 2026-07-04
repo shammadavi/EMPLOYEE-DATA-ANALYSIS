@@ -1,182 +1,188 @@
-#  Employee Data Analysis Dashboard
+# Employee Data Analysis Dashboard
 
-##  Project Overview
+<p align="center">
 
-The **Employee Data Analysis Dashboard** is an interactive **Power BI Business Intelligence project** designed to analyze employee-related data and provide meaningful insights for Human Resources (HR) and business decision-makers.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data Analytics](https://img.shields.io/badge/Data-Analytics-blue?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Analysis-green?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-orange?style=for-the-badge)
 
-This dashboard converts raw employee data into visually appealing reports, enabling organizations to make informed decisions regarding workforce management, employee demographics, salary distribution, department performance, and employee attrition.
-
----
-
-## Objectives
-
-- Analyze employee demographics
-- Monitor workforce distribution across departments
-- Compare salary trends
-- Identify employee attrition patterns
-- Evaluate department performance
-- Track hiring trends
-- Support HR decision-making using data visualization
+</p>
 
 ---
 
-##  Features
+# Project Overview
 
-✔ Interactive Dashboard
-✔ Dynamic Filters (Slicers)
-✔ Department-wise Analysis
-✔ Employee Count Overview
-✔ Salary Distribution Analysis
-✔ Gender Diversity Analysis
-✔ Employee Performance Tracking
-✔ Attrition Analysis
-✔ Hiring Trends
-✔ KPI Cards for Key Metrics
+The **Employee Data Analysis Dashboard** is an interactive Power BI project that transforms raw employee data into meaningful business insights.
+
+The dashboard enables HR teams and business managers to monitor workforce performance, salary distribution, employee demographics, department-wise analysis, and key organizational metrics through interactive visualizations.
 
 ---
 
-## Dashboard Insights
+# Objectives
 
-The dashboard provides valuable insights including:
-
--  Total Employees
--  Department-wise Employee Count
--  Average Salary
--  Salary Comparison Across Departments
--  Gender Distribution
--  Employee Hiring Trends
--  Employee Attrition Rate
--  Performance Ratings
--  Workforce Distribution
+- Analyze employee records efficiently
+- Monitor department performance
+- Understand salary distribution
+- Explore employee demographics
+- Identify workforce trends
+- Build an interactive HR dashboard for decision-making
 
 ---
 
-##  Tech Stack
+#  Dashboard Features
+
+- Interactive Dashboard
+- Employee Performance Analysis
+- Department-wise Insights
+- Salary Analysis
+- Employee Demographics
+- Dynamic Filters & Slicers
+- KPI Cards
+- Charts & Visualizations
+
+---
+
+# Dashboard Pages
+
+##  Page 1 – Employee Overview
+
+- Employee Summary
+- Salary Analysis
+- Department Insights
+- Interactive Filters
+- Trend Analysis
+
+---
+
+## Page 2 – Department Analysis
+
+- Department-wise Employees
+- Salary Distribution
+- Employee Comparison
+- Pie Charts
+- Bar Charts
+
+---
+
+## Page 3 – Advanced Analytics
+
+- Area Charts
+- Funnel Analysis
+- Interactive Navigation
+- Advanced Filters
+- Business Insights
+
+---
+
+# Visualizations Used
+
+-  Column Chart
+-  Area Chart
+-  Bar Chart
+-  Pie Chart
+-  Funnel Chart
+-  KPI Cards
+-  Slicers
+-  Page Navigator
+
+---
+
+#  Tools & Technologies
 
 | Tool | Purpose |
-|------|----------|
-| Microsoft Power BI | Dashboard Development |
-| Power Query | Data Cleaning & Transformation |
-| DAX | Calculated Columns & Measures |
+|-------|----------|
+| Power BI | Dashboard Development |
+| Power Query | Data Cleaning & ETL |
+| DAX | Data Analysis & Measures |
 | Excel / CSV | Data Source |
+| Data Visualization | Business Intelligence |
 
 ---
 
-## Project Structure
+#  Project Structure
 
-```
 Employee-Data-Analysis/
 │
-├── Employee Data Analysis.pbix
-├── Dataset.xlsx
+├── EMPLOYEE DATA ANALYSIS.pbix
 ├── README.md
-├── LICENSE
-│
-└── Screenshots/
-    ├── Dashboard Overview.png
-    ├── Salary Analysis.png
-    ├── Department Analysis.png
-    └── Attrition Analysis.png
-```
+├── images/
+│   ├── dashboard.png
+│   ├── salary-analysis.png
+│   ├── department-analysis.png
+│   └── overview.png
+└── dataset/
 
 ---
 
-##  Dashboard Preview
+# Dashboard Preview
 
-> **Add your dashboard screenshots inside the `Screenshots` folder and replace the image paths below.**
+## Dashboard
 
-### Dashboard Overview
+<img width="1363" height="745" alt="Employee data dashboard" src="https://github.com/user-attachments/assets/409b067d-6e30-422a-b44a-67f9a9aadbb1" />
 
-![Dashboard Overview](Screenshots/dashboard-overview.png)
+<img width="1389" height="773" alt="salary dashboard1" src="https://github.com/user-attachments/assets/cca541cf-a001-42ff-9bbe-4f04f2002d09" />
 
----
+<img width="1380" height="751" alt="Employee dashboard" src="https://github.com/user-attachments/assets/182ba324-68d9-413d-8fe9-bc82685d42ac" />
 
-### Salary Analysis
 
-![Salary Analysis](Screenshots/salary-analysis.png)
+#  Key Insights
 
----
-
-### Department Analysis
-
-![Department Analysis](Screenshots/department-analysis.png)
-
----
-
-### Attrition Analysis
-
-![Attrition Analysis](Screenshots/attrition-analysis.png)
+- Department-wise employee distribution
+- Salary trends across departments
+- Employee demographic analysis
+- Workforce performance metrics
+- Interactive filtering for better decision making
 
 ---
 
-## Business Value
+#  How to Run
 
-This dashboard helps organizations:
-
-- Improve workforce planning
-- Monitor employee performance
-- Identify high attrition departments
-- Analyze salary distribution
-- Understand employee demographics
-- Improve HR decision-making
-- Increase operational efficiency
-
----
-
-## Skills Demonstrated
-
-- Business Intelligence
-- Data Visualization
-- Dashboard Design
-- Data Cleaning
-- Data Transformation
-- Power Query
-- DAX Functions
-- KPI Reporting
-- HR Analytics
-- Data Modeling
-
----
-
-## Getting Started
-
-### Clone the Repository
+1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Employee-Data-Analysis.git
+git clone https://github.com/yourusername/Employee-Data-Analysis.git
 ```
 
-### Open the Project
+2. Open the `.pbix` file using **Microsoft Power BI Desktop**
 
-1. Install **Microsoft Power BI Desktop**
-2. Download this repository.
-3. Open **Employee Data Analysis.pbix**
-4. Refresh the dataset if necessary.
-5. Explore the interactive dashboard.
+3. Refresh the dataset (if required)
+
+4. Explore the dashboard using interactive slicers and filters.
 
 ---
 
-##  Future Enhancements
+#  Skills Demonstrated
 
-- SQL Server Integration
-- Live Database Connection
-- Power BI Service Deployment
-- Scheduled Data Refresh
+- Power BI Dashboard Development
+- Data Cleaning
+- ETL Process
+- DAX Calculations
+- Data Modeling
+- Business Intelligence
+- Interactive Reporting
+- Data Visualization
+
+---
+
+#  Business Use Cases
+
+- HR Analytics
+- Workforce Planning
+- Salary Analysis
+- Employee Performance Monitoring
+- Executive Reporting
+- Organizational Insights
+
+---
+
+# Future Improvements
+
 - Predictive Analytics
-- Employee Attrition Prediction using Machine Learning
-- Advanced HR KPI Dashboard
-
+- Employee Attrition Analysis
+- Real-time Dashboard
+- SQL Database Integration
+- Automated Data Refresh
+- AI-powered Insights
 ---
 
-## Key Learnings
-
-Through this project, I gained practical experience in:
-
-- Building interactive Power BI dashboards
-- Designing business KPIs
-- Writing DAX measures
-- Cleaning and transforming data using Power Query
-- Creating professional business reports
-- Presenting actionable insights through visualization
-
----
